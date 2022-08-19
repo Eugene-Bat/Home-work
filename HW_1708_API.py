@@ -11,5 +11,4 @@ def weather(city_name):
                f'{json["current"]["condition"]["text"]}'
     return response
 
-
 print(weather('london'))
